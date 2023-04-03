@@ -1,12 +1,11 @@
 <template>
-    <v-main>
-        <router-view />
-    </v-main>
+    <div>
+        <input type="text" placeholder="enter the youtube link" />
+    </div>
 </template>
 
 <script>
     export default {
-        name: "App"
         
     }
 </script>
