@@ -1,14 +1,17 @@
 <template>
-  <div>
-    <input-field></input-field>
-  </div>
+    <div>
+        <input-card></input-card>
+    </div>
 </template>
 
 <script>
-import InputField from '@/components/InputField.vue'
-export default {
-  components: { InputField },
-}
+import InputCard from '@/components/InputCard.vue'
+    export default {
+  components: { InputCard },
+        
+    }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
